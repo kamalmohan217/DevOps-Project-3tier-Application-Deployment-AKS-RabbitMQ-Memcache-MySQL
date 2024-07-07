@@ -83,6 +83,9 @@ After running the Azure Pipeline the Screenshot for RabbitMQ, SonarQube, Nexus A
 ![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/be119104-1e90-4486-a202-8019b891fe25)
 ![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/cbd97940-8e77-475b-9865-86ea162f67f3)
 
+```
+kubectl create secret docker-registry devopsmelacr132827a7-auth --docker-server=https://akscontainer24registry.azurecr.io --docker-username=akscontainer24registry --docker-password=sXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXt/ -n three-tier
+```
 <br><br/>
 <br><br/>
 <br><br/>
