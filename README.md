@@ -48,7 +48,7 @@ Finally copy the Public IP of the Application Gateway of RabbitMQ and create the
 ![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/4c605c44-2214-4c32-a7bb-515604b7cde1)
 ![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/45f2d439-b994-4795-beb3-14bfed6200b6)
 
-The source code is present in Azure Repos. I have taken the Source Code present in GitHub Repository https://github.com/singhritesh85/Three-tier-WebApplication.git and did changes in pom.xml, Dockerfile, application.properties as shown below.
+The source code is present in Azure Repos. I have taken the Source Code present in GitHub Repository https://github.com/kamalmohan217/Three-tier-WebApplication.git and did changes in pom.xml, Dockerfile, application.properties as shown below.
 ![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/7100eeb4-19b8-4ea2-8d8e-a1b0ab3642fc)
 ![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/e42f9604-3bc5-4351-9923-9263a10b0cd0)
 ![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/dd835d97-f514-40c0-b73b-040ba07c4f29)
