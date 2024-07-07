@@ -66,11 +66,20 @@ Create a database named as account in mysql and import the file db_backup.sql.
 I have created Service service Connection for SonarQube, Azure Artifacsts and Docker Repository as shown below.
 ![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/c61321d3-a347-4420-93ea-8f6334d0ac82)
 
+Now Run the Azure Pipeline (the azure-pipelines.yaml is used as provided with this repository). Create the URL using ingress rule for service present in the file ingress-rule.yaml in this repository. Do the entry for this URL with Public IP in Record Set of Azure DNS Zone. Access the newly created URL and provide username admin_vp and password admin_vp.
+![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/d51a494f-82b5-472f-8d62-2dd7001d7bdc)
+![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/0cc30c6d-d25e-46f1-a941-3cc6b6d7ba6e)
+![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/121b9da8-a891-479b-ad4f-02177b1ccd5a)
+![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/10ac115f-cc61-4eda-8b6d-83f4dcf9bd6b)
+When you click on the User for the first time it will get the values from MySQL Database and store it in Memcache, so that next time when you click on the same user it will provide the values from the Memcache itself.
+![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/8e44b73e-1603-4457-af50-eab500f71406)
+![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/6ca99775-e8b0-450d-9778-216ecb27c16f)
 
 <br><br/>
-After running the Jenkins Job the Screenshot for RabbitMQ, SonarQube, Nexus Artifactory and ArgoCD is as shown in the Screenshot below.
+After running the Azure Pipeline the Screenshot for RabbitMQ, SonarQube, Nexus Artifactory and ArgoCD is as shown in the Screenshot below.
 ![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/72b6b89b-b9cc-407a-afa1-7887412963bc)
 ![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/c384ae7f-a53a-4022-a5cb-e48d207c8b56)
 ![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/e2335b90-2d3c-40f8-8d71-a923add72b5e)
 ![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/be119104-1e90-4486-a202-8019b891fe25)
+![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/cbd97940-8e77-475b-9865-86ea162f67f3)
 
