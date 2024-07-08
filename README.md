@@ -76,7 +76,7 @@ When you click on the User for the first time it will get the values from MySQL 
 ![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/6ca99775-e8b0-450d-9778-216ecb27c16f)
 
 <br><br/>
-After running the Azure Pipeline the Screenshot for RabbitMQ, SonarQube, Nexus Artifactory and ArgoCD is as shown in the Screenshot below.
+After running the Azure Pipeline the Screenshot for RabbitMQ, SonarQube, Azure Artifacts are as shown in the Screenshot below.
 ![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/72b6b89b-b9cc-407a-afa1-7887412963bc)
 ![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/c384ae7f-a53a-4022-a5cb-e48d207c8b56)
 ![image](https://github.com/kamalmohan217/DevOps-Project-3tier-Application-Deployment-AKS-RabbitMQ-Memcache-MySQL/assets/128888356/e2335b90-2d3c-40f8-8d71-a923add72b5e)
